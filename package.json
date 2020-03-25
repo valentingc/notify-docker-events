@@ -1,0 +1,30 @@
+{
+  "name": "notify-docker-events",
+  "version": "1.0.0",
+  "description": "Notify when a docker container dies.",
+  "main": "index.js",
+  "author": "Valentin Goronjic",
+  "license": "MIT",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.25.0",
+    "@typescript-eslint/parser": "^2.25.0",
+    "dockerode": "^3.1.0"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "eslint": "eslint src --ext ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/valentingc/notify-docker-events.git"
+  },
+  "devDependencies": {
+    "@types/dockerode": "^2.5.26",
+    "@types/node": "^12.12.31",
+    "@types/typescript": "^2.0.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-import": "^2.20.1",
+    "typescript": "^3.8.3"
+  }
+}
